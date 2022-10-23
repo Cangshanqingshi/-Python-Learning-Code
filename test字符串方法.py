@@ -1,0 +1,10 @@
+strtest = "abcbbccbc"
+print(strtest.lower())
+print(strtest.upper())
+print(strtest.split("bc"))
+print(strtest.count("bc"))
+print(strtest.replace("bc","de"))
+print(strtest.center(20,"-"))
+print(strtest.strip("cb"))
+print(",".join(strtest))
+print("{}".format(100))
